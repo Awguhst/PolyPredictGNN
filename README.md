@@ -2,9 +2,9 @@
 
 This app provides a simple interface to demonstrate two advanced models for predicting **polymer properties** and **solubility** using **SMILES representations**. The app showcases the following models:
 
-- **HybridGNN** - Predicts **Glass Transition Temperature (Tg)** and **Melting Temperature (Tm)** for polymers.
+- **HybridGNN** – Predicts **Glass Transition Temperature (Tg)** and **Melting Temperature (Tm)** for polymers.
 
-- **SolubilityGNN** - Estimates **polymer solubility** in various solvents.
+- **SolubilityGNN** – Estimates **polymer solubility** in various solvents.
 
 Both models utilize **Graph Neural Networks (GNNs)** to analyze molecular structures as graphs, combining them with physicochemical descriptors to improve prediction accuracy.
 
@@ -18,6 +18,34 @@ The ability to predict polymer properties and solubility is crucial for material
 - **Solubility**: Polymer solubility in different solvents, helping with solvent selection for specific applications.
 
 By leveraging modern **graph-based deep learning** techniques, the framework bridges the gap between molecular structure and practical material design.
+
+---
+
+## 🎥 **Demo**
+![Streamlit app GIF](media/demo.gif)
+
+> *Visualization of the interactive Streamlit web app for polymer property prediction.*
+
+---
+
+## Streamlit App Interface
+
+- **User Input:**
+   - The user inputs a **polymer SMILES** string and an optional **solvent SMILES** string.
+
+- **Prediction Process:**
+   - The app checks if the **SMILES** strings are valid.
+   - If valid, it predicts the **Glass Transition Temperature (Tg)** and **Melting Temperature (Tm)** of the polymer.
+
+- **Polymer and Solvent Visualization:**
+   - 2D molecular images of the **polymer** and **solvent** (if provided) are displayed.
+
+- **Solubility Prediction:**
+   - If a solvent is provided, the app predicts the **solubility** of the polymer in the solvent as a percentage.
+
+- **Similar Monomers, Solvents, and Results Display:**
+   - The app recommends **top similar monomers** and **top alternative solvents** based on predicted solubility.
+   - It also shows the predicted **thermal properties (Tg, Tm)** and **solubility results** alongside the 2D images of the polymer and solvent.
 
 ---
 
