@@ -2,9 +2,9 @@
 
 This app provides a simple interface to demonstrate two advanced models for predicting **polymer properties** and **solubility** using **SMILES representations**. The app showcases the following models:
 
-- **HybridGNN** – Predicts **Glass Transition Temperature (Tg)** and **Melting Temperature (Tm)** for polymers.
+- **HybridGNN** - Predicts **Glass Transition Temperature (Tg)** and **Melting Temperature (Tm)** for polymers.
 
-- **SolubilityGNN** – Estimates **polymer solubility** in various solvents.
+- **SolubilityGNN** - Estimates **polymer solubility** in various solvents.
 
 Both models utilize **Graph Neural Networks (GNNs)** to analyze molecular structures as graphs, combining them with physicochemical descriptors to improve prediction accuracy.
 
