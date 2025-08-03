@@ -1,0 +1,176 @@
+solvent_smiles,solvent
+Nc1ccccc1,aniline
+CC(C)=O,acetone
+c1ccccc1,Benzene
+ClC(Cl)(Cl)Cl,carbon tetrachloride
+C1CCCCC1,cyclohexane
+CO,methanol
+ClCCl,methylene chloride
+c1ccncc1,pyridin
+CN(C)C=O,"n,n-dimethylformamide"
+CC(C)N,isopropylamine
+Cc1ccccc1,toluene
+Clc1ccccc1Cl,dichlorobenzene
+Clc1ccccc1,chlorobenzene
+ClC(Cl)Cl,chloroform
+C1COCCO1,dioxane
+O=CO,formic acid
+CCCCCC,hexane
+O,Water
+CCO,ethanol
+CS(C)=O,dimethylsulfoxide
+C1CCOC1,tetrahydrofuran
+CCOCC,diethyl ether
+c1ccc2c(c1)CCCC2,tetrahydronaphthalene
+Clc1cccc2ccccc12,chloronaphthalene
+ClCC(Cl)(Cl)Cl,tetrachloroethane
+CCCCCOC(C)=O,amyl acetate
+c1ccc(Oc2ccccc2)cc1,diphenyl ether
+COC(C)OC,dimethoxyethane
+S=C=S,carbon disulfide
+Cc1ccc(C)cc1,xylene
+CC#N,acetonitrile
+O=C1CCCCC1,cyclohexanone
+CCCCO,butanol
+COC(C)=O,methyl acetate
+CCCCCCC,heptane
+CCC#N,propionitrile
+COc1ccccc1,anisole
+ClCCOCCCl,di(2-chloroethyl) ether
+CCSCC,diethylsulfide
+C[N+](=O)[O-],nitromethane
+CC(=O)O,acetic acid
+ClP(Cl)Cl,phosphorus trichloride
+CCCCOP(=O)(OCCCC)OCCCC,tributyl phosphate
+COC(=O)c1ccccc1C(=O)OC,dimethyl phthalate
+CCOC(C)=O,ethyl acetate
+CCc1ccccc1,ethylbenzene
+CCC(C)=O,methyl ethyl ketone
+CN1CCCC1=O,n-methyl-2-pyrrolidone
+CCC[N+](=O)[O-],1-nitropropane
+OCCCl,ethylene chlorohydrin
+CC(C)COC(=O)c1ccccc1C(=O)[O-],isobutyl phthalate
+Cc1ccc(OP(=O)(Oc2ccc(C)cc2)Oc2ccc(C)cc2)cc1,tricresyl phosphate
+O=P(OCCCl)(OCCCl)OCCCl,tri(chloroethyl) phosphate
+OCc1ccco1,furfurol
+O=[N+]([O-])c1ccccc1,nitrobenzene
+CC(C)OC(C)C,diisopropyl ether
+F,hydrogen fluoride
+CCCCOC(C)=O,butyl acetate
+N#Cc1ccccc1,benzonitrile
+Oc1ccccc1,phenols
+CCBr,ethyl bromide
+CC(Cl)(Cl)Cl,trichloroethane
+CC(=O)N(C)C,"n,n-dimethylacetamide"
+OCC1CCCO1,tetrahydrofurfuryl alcohol
+O=C1CCCO1,gamma-butyrolactone
+CC(=O)CC(C)C,methyl isobutyl ketone
+O=C1OCCO1,ethylene carbonate
+Cc1cccc(O)c1,m-cresol
+OC(C(F)(F)F)C(F)(F)F,hexafluoroisopropanol
+N#CCCCCS(=O)(=O)CCCCC#N,bis(4-cyanobutyl)sulfone
+N#CCCl,chloroacetonitrile
+N#CCCOCCC#N,bis(2-cyanoethyl)ether
+CC(=O)OC(C)=O,acetic anhydride
+N#CCC(=O)O,cyanoacetic acid
+O=C1COCCO1,dioxanone
+O=[N+]([O-])O,nitric acid
+CS(C)(=O)=O,dimethyl sulfone
+O=CN1CCCCCC1,n-formylhexamethyleneimine
+CS(=O)(=O)CCO,2-hydroxyethyl methyl sulfone
+O=S(=O)(O)c1ccc(O)cc1,p-phenol sulfonic acid
+CN(C=O)CCC#N,n-methyl-beta-cyanoethylformamide
+CNC(=O)C(F)(F)F,"n-methyl-a,a,a,-trifluoroacetamide"
+Cn1ccccc1=O,1-methyl-2-pyridone
+COP([O-])OC,dimethyl phosphite
+O=C1NCCO1,2-oxazolidone
+N#CCCC(C#N)(C#N)CCC#N,"1,3,3,5-tetracyanopentane"
+O=S(=O)(O)O,sulfuric acid
+N#CSCSC#N,methylene dithiocyanate
+O=NN1CCCCC1,n-nitrosopiperidine
+O=C1CCCCCN1,e-caprolactam
+CN(C)C(=O)C(N)=O,dimethyloxamide
+C=CC#N,acrylonitrile
+NC=O,formamide
+NCCCCCCN,"1,6-hexanediamine"
+COCC(N)=O,methoxyacetamide
+CCN(C=O)CC,diethylformamide
+COCC#N,methoxyacetonitrile
+CSC#N,methyl thiocyanate
+CC1CS(=O)(=O)CC1C,"3,4-dimethyl sulfolane"
+O=S(CCO)CCO,bis(2-hydroxyethyl) sulfoxide
+CCCOC=O,propyl formate
+CCS(=O)CC,diethyl sulfoxide
+[O-]Cl,hypochlorite solutions
+FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,perfluorohexane
+Fc1c(F)c(F)c(F)c(F)c1F,hexafluorobenzene
+C1COCCN1,morpholine
+OC1CCCCC1,cyclohexanol
+OCCOCCO,glycol ether
+CC(=O)OC1CCCCC1,cyclohexyl acetate
+CC(C)O,isopropanol
+OCc1ccccc1,benzyl alcohol
+CC[N+](=O)[O-],nitroethane
+CC1CCCCC1,methylcyclohexane
+C1CCC2CCCCC2C1,decahydronaphthalene
+CC=C(O)CO,"2-buten-1,2-diol"
+CCCCCOCCCCC,di-n-amyl ether
+CCC1CCCCC1,ethylcyclohexane
+CC(C)C(=O)C(C)C,diisopropyl ketone
+C=CCl,vinyl chloride
+O=C1CCCC1,cyclopentanone
+ClCCCl,ethylene chloride
+CC1=CC(=O)CC(C)(C)C1,isophorone
+CN(C)P(=O)(N(C)C)N(C)C,hexamethylphosphoric triamide
+CC(=O)C=C(C)C,mesityl oxide
+OCCO,ethylene glycol
+CCCCC,pentane
+C1CNCCN1,piperazine
+CC(N)=O,acetamide
+CC(=O)OC(C)C,isopropyl acetate
+CCOCCOCCOCC,bis(2-ethoxyethyl) ether
+CCOCCO,2-ethoxyethanol
+C=C(C)C#N,methacrylonitrile
+O=Cc1ccco1,furfural
+CCCCCO,amyl alcohol
+CCCCCCOC(C)=O,hexyl acetate
+C=C(C)C(=O)OC,methyl methacrylate
+C=Cc1ccccc1,styrene
+O=C(O)C(F)(F)F,trifluoroacetic acid
+OC(F)(F)CF,trifluoroethanol
+CC(C)C(O)C(C)C,"2,4-dimethyl-3-pentanol"
+Cc1cc(C)cc(C)c1,mesitylene
+ClC=C(Cl)Cl,trichloroethylene
+Cc1cc(C)c(C)cc1C,durene
+CCOCCOC(C)=O,ethyl glycol acetate
+CCOC(=O)C(C)O,ethyl lactate
+CCCCCC(C)C,isooctane
+Cc1ccccc1O,cresols
+O=C(O)C(Cl)Cl,dichloroacetic acid
+Fc1cc(Cl)c(Cl)c(F)c1F,"1,2-dichlorotrifluorobenzene"
+CC(Cl)C(F)(Cl)C(F)(Cl)C(F)(Cl)Cl,"1,2,3-trifluoropentachloropentane"
+FC(F)(F)C(F)(F)C(F)(F)C(F)(F)NC(F)(F)C(F)(F)C(F)(F)C(F)(F)F,perfluorodibutylamine
+FC(F)(F)C(F)(F)C(F)(F)C(F)(F)OC(F)(F)C(F)(F)C(F)(F)C(F)(F)F,perfluorodibutyl ether
+COC,dimethyl ether
+Cc1ccc(O)cc1,p-cresol
+CC(F)C(O)(F)F,trifluoropropanol
+OCCCCO,"1,4-Butanediol"
+OC(F)(F)C(F)(F)C(F)F,hexafluoropropanol
+C=C(Cl)Cl,dichloroethylene
+C[Si](C)(C)O[Si](C)(C)C,hexamethyldisiloxane
+CCCCCCCl,chlorohexane
+CC(Cl)Cl,dichloroethane
+Oc1ccccc1Cl,chlorophenol
+OC(O)C(Cl)(Cl)Cl,chloral hydrate
+O=P(O)(O)O,phosphoric acid
+O=C(O)C(Cl)(Cl)Cl,trichloroacetic acid
+ClC(Cl)C(Cl)Cl,"1,1,2,2-tetrachloroethane"
+ClCC(Cl)Cl,"1,1,2-Trichloroethane"
+O=[N+]([O-])c1ccccc1O,nitrophenols
+O=C(O)CCl,chloroacetic acid
+NC(=O)C(F)(F)F,trifluoroacetamide
+BrC(Br)Br,bromoform
+CC(O)CC(C)(C)O,"2-Methyl-2,4-pentanediol"
+O=S1(=O)CCCC1,sulfolane
+CCC(O)CC,"3-pentanol,"
+O=C(c1ccccc1)c1ccccc1,benzophenone
