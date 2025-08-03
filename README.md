@@ -72,7 +72,7 @@ By harnessing **graph-based deep learning** techniques, this app turns molecular
 
 **Dual SMILES Inputs**: Takes separate SMILES strings for the polymer and solvent, predicting the polymer's solubility in the solvent.
 
-Both models use **GNN-based architectures** with enhancements tailored to predict thermal properties (Tg, Tm) and solubility, combining graph embeddings with molecular descriptors for accurate predictions.
+Both models use **GNN-based architectures** with enhancements tailored to predict thermal properties Tg, Tm and Solubility, combining graph embeddings with molecular descriptors for accurate predictions.
 
 ---
 
