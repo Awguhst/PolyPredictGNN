@@ -98,7 +98,7 @@ Both datasets were sourced from **peer-reviewed papers**.
 - **Accuracy**: 82%
 - **AUC (Area Under the Curve)**: 0.88
 
-_All metrics were calculated using 5-fold cross-validation._
+> All metrics were calculated using 5-fold cross-validation.
 ---
 
 ## References
