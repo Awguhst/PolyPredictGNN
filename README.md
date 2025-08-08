@@ -79,7 +79,7 @@ Both models use **GNN-based architectures** with enhancements tailored to predic
 ## Datasets
 
 ### Polymer Property Dataset
-The **Polymer Property Dataset** contains **1,564** samples, each consisting of a **monomer SMILES** string along with corresponding **Glass Transition Temperature (Tg)** and **Melting Temperature (Tm)** values for the polymer. This dataset is used to train the **HybridGNN** model for predicting the thermal properties of polymers based on their molecular structure.
+The **Polymer Property Dataset** contains **1,564** samples, each consisting of a **monomer SMILES** strings along with corresponding **Glass Transition Temperature (Tg)** and **Melting Temperature (Tm)** values for the polymer. This dataset is used to train the **HybridGNN** model for predicting the thermal properties of polymers based on their molecular structure.
 
 ### Polymer Solubility Dataset
 The **Polymer Solubility Dataset** includes **1,819** pairs of **monomer SMILES** and **solvent SMILES** strings. Each entry is labeled with a binary column indicating whether the polymer is **soluble** in the corresponding solvent. This dataset is utilized to train the **SolubilityGNN** model for predicting polymer-solvent solubility interactions.
