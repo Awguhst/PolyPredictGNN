@@ -91,13 +91,14 @@ Both datasets were sourced from **peer-reviewed papers**.
 ## Performance Metrics
 
 ### HybridGNN:
-- **R² score for Tg**: 0.80 (5-fold cross-validation)
-- **R² score for Tm**: 0.70 (5-fold cross-validation)
+- **R² score for Tg**: 0.80
+- **R² score for Tm**: 0.70
 
 ### SolubilityGNN:
-- **Accuracy**: 82% (5-fold cross-validation)
-- **AUC (Area Under the Curve)**: 0.88 (5-fold cross-validation)
+- **Accuracy**: 82%
+- **AUC (Area Under the Curve)**: 0.88
 
+_All metrics were calculated using 5-fold cross-validation._
 ---
 
 ## References
