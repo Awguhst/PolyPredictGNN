@@ -67,12 +67,11 @@ By harnessing **graph-based deep learning** techniques, this app turns molecular
 
 - **TransformerConv**: Models molecular interactions by considering both node and edge features.
 - **GINConv**: Extracts higher-level molecular patterns from polymer and solvent graphs.
-- **Edge Features**: Uses both atom (node) and bond (edge) features to better capture solubility dynamics.
 - **Fully connected layers**: Similar to the previous model, these layers combine graph features with molecular descriptors, utilizing **GELU activations** and dropout to prevent overfitting.
 
 **Dual SMILES Inputs**: Takes separate SMILES strings for the polymer and solvent, predicting the polymer's solubility in the solvent.
 
-Both models use **GNN-based architectures** with enhancements tailored to predict thermal properties Tg, Tm and Solubility, combining graph embeddings with molecular descriptors for accurate predictions.
+Both models use **GNN-based architectures** with enhancements tailored to predict thermal properties Tg, Tm and Solubility, combining graph embeddings with molecular descriptors.
 
 ---
 
