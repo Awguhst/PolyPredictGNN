@@ -6,7 +6,7 @@ This app provides a simple interface to demonstrate two advanced models for pred
 
 - **SolubilityGNN** - Estimates **polymer solubility** in various solvents.
 
-Both models utilize **Graph Neural Networks (GNNs)** to analyze molecular structures as graphs, combining them with physicochemical descriptors to improve prediction accuracy.
+Both models utilize **Graph Neural Networks (GNNs)** to analyze molecular structures as graphs, combining them with physicochemical descriptors to improve accuracy.
 
 ---
 
