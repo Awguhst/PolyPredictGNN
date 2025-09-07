@@ -1,6 +1,6 @@
 # Polymer Property and Solubility Prediction Demo
 
-This app provides a simple interface to demonstrate two advanced models for predicting **polymer properties** and **solubility** using **SMILES representations**. The app showcases the following models:
+This app provides a simple interface to demonstrate two models for predicting **polymer properties** and **solubility** using **SMILES representations**. The app showcases the following models:
 
 - **HybridGNN** - Predicts **Glass Transition Temperature (Tg)** and **Melting Temperature (Tm)** for polymers.
 
