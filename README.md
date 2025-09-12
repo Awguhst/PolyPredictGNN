@@ -52,26 +52,23 @@ By harnessing **graph-based deep learning** techniques, this app turns molecular
 ## Model Architecture
 
 ### HybridGNN (Polymer Property Prediction)
-**HybridGNN** predicts the **Glass Transition Temperature (Tg)** and **Melting Temperature (Tm)** of polymers using both molecular graph representation and physicochemical descriptors through **multi-target regression**.
+**HybridGNN** predicts **Glass Transition Temperature (Tg)** and **Melting Temperature (Tm)** using molecular graph and physicochemical descriptors.
 
-- **GIN**: Extracts structural features from the polymer graph, capturing atom and bond interactions.
-- **GAT**: Assigns attention weights to graph nodes, focusing on important features for complex molecular structures.
-- **GraphConv**: Processes molecular graph data, capturing higher-level structural features.
-- **PCA**: Reduces dimensionality of descriptors, improving model efficiency while retaining key chemical information.
-- **Fully connected layers**: Combines graph features with molecular descriptors, utilizing **GELU activations** and dropout to prevent overfitting.
-  
-**Multi-target Regression**: Predicts both **Tg** and **Tm** simultaneously, optimizing the process for both properties.
+- **GIN**: Extracts structural features from the polymer graph.
+- **GAT**: Focuses on important features with attention weights.
+- **GraphConv**: Captures higher-level structural features.
+- **PCA**: Reduces descriptor dimensionality.
+- **Fully connected layers**: Combines graph features and descriptors with **GELU** activations and dropout.
+
+**Multi-target Regression**: Simultaneously predicts **Tg** and **Tm**.
 
 ### SolubilityGNN (Polymer Solubility Prediction)
-**SolubilityGNN** predicts polymer solubility in a given solvent, considering polymer-solvent interactions with **dual SMILES inputs** (polymer and solvent).
+**SolubilityGNN** predicts polymer solubility using dual SMILES inputs (polymer and solvent).
 
-- **TransformerConv**: Models molecular interactions by considering both node and edge features.
-- **GINConv**: Extracts higher-level molecular patterns from polymer and solvent graphs.
-- **Fully connected layers**: Similar to the previous model, these layers combine graph features with molecular descriptors, utilizing **GELU activations** and dropout to prevent overfitting.
+- **TransformerConv & GINConv**: Model molecular interactions and patterns.
+- **Fully connected layers**: Similar to HybridGNN, combining graph features with descriptors.
 
-**Dual SMILES Inputs**: Takes separate SMILES strings for the polymer and solvent, predicting the polymer's solubility in the solvent.
-
-Both models use **GNN-based architectures** with enhancements tailored to predict thermal properties Tg, Tm and Solubility, combining graph embeddings with molecular descriptors.
+Both models use **GNN architectures** optimized for thermal properties and solubility prediction.
 
 ---
 
