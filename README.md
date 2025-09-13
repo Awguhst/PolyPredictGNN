@@ -12,7 +12,7 @@ Both models utilize **Graph Neural Networks (GNNs)** to analyze molecular struct
 
 ## Motivation
 
-Predicting **polymer properties** is key for designing materials in industries like **packaging**, **electronics**, and **aerospace**. Traditional methods can be **resource-heavy** and **time-consuming**. This app offers a **data-driven, scalable alternative**, giving you real-time predictions for **thermal** and **solubility** properties
+Accurately predicting **polymer properties** is essential for material design across industries such as **packaging**, **electronics**, and **aerospace**. Traditional experimental approaches are often **resource-intensive** and **time-consuming**. This app offers a **data-driven, scalable alternative**, giving you real-time predictions for **thermal** and **solubility** properties.
 
 ---
 
