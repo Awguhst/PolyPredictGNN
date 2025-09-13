@@ -12,10 +12,7 @@ Both models utilize **Graph Neural Networks (GNNs)** to analyze molecular struct
 
 ## Motivation
 
-The ability to predict polymer properties and solubility is crucial for material design in various industries, including **packaging**, **electronics**, and **aerospace**. Traditional experimental methods are often resource intensive and time consuming. This app offers a **data-driven, scalable alternative**, providing real-time predictions for:
-
-- **Thermal Properties**: Glass Transition Temperature (Tg) and Melting Temperature (Tm).
-- **Solubility**: Polymer solubility in different solvents, helping with solvent selection for specific applications.
+Accurately predicting polymer properties and solubility is essential for material design across industries such as **packaging**, **electronics**, and **aerospace**. Traditional experimental approaches are often resource-intensive and time-consuming. This app presents a **data-driven, scalable solution**, delivering real-time predictions for **thermal** and **solubility** properties.
 
 ---
 
