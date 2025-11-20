@@ -21,7 +21,21 @@ Accurately predicting **polymer properties** is essential for material design ac
 ![Streamlit app GIF](media/demo.gif)
 > *Visualization of the interactive Streamlit web app for polymer property prediction.*
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://polypredictgnn-wvus6kfzglaxlxlwl8aawy.streamlit.app/)
+<br>
+
+<p align="center">
+  <a href="https://polypredictgnn-wvus6kfzglaxlxlwl8aawy.streamlit.app/">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit"/>
+  </a>
+</p>
+
+<p align="center">
+  <strong>CLICK THE BADGE ABOVE TO LAUNCH THE LIVE APP</strong>
+</p>
+
+<p align="center">
+  Even a caveman can do it
+</p>
 
 ---
 
