@@ -98,22 +98,22 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load the HybridGNN model for Tg/Tm prediction
 tg_tm_model = HybridGNN(hidden_channels=128, descriptor_size=12, dropout_rate=0.6)
-tg_tm_model.load_state_dict(torch.load("../models/hybrid_gnn.pt", map_location=device))
+tg_tm_model.load_state_dict(torch.load("models/hybrid_gnn.pt", map_location=device))
 tg_tm_model.eval().to(device)
 
 # Load the SolubilityGNN model for solubility prediction
 solubility_model = SolubilityGNN(hidden_channels=128, descriptor_size=5, dropout_rate=0.3)
-solubility_model.load_state_dict(torch.load("../models/solubility_gnn.pt", map_location=device))
+solubility_model.load_state_dict(torch.load("models/solubility_gnn.pt", map_location=device))
 solubility_model.eval().to(device)
 
 # Load Scalers
-scaler = joblib.load("../models/scaler.pkl")
-pca = joblib.load("../models/pca.pkl")
+scaler = joblib.load("models/scaler.pkl")
+pca = joblib.load("models/pca.pkl")
 
 # Load training data for similarity search (Tg/Tm model)
 @st.cache_data
 def load_training_data():
-    df = pd.read_csv("../data/polymer_tg_tm.csv")
+    df = pd.read_csv("data/polymer_tg_tm.csv")
 
     # Normalize column name just once
     df.rename(columns={"SMILES": "smiles"}, inplace=True)
