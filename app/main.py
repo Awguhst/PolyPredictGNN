@@ -297,7 +297,7 @@ if st.sidebar.button("Predict"):
             # Column 2: Solvents
             with col2:
                 st.subheader("💧 Alternative Solvents")
-                solvent_data = pd.read_csv('../data/solvent_smiles.csv')  # Assuming solvent data
+                solvent_data = pd.read_csv('data/solvent_smiles.csv')  # Assuming solvent data
                 top_solvents = []
 
                 # Recompute g1 and solvent properties for each solvent
