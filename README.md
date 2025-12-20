@@ -62,7 +62,7 @@ Accurately predicting **polymer properties** is essential for material design ac
 ### SolubilityGNN (Polymer Solubility Prediction)
 **SolubilityGNN** predicts polymer solubility using dual SMILES inputs (polymer and solvent).
 
-- **TransformerConv & GINConv**: Model molecular interactions and patterns.
+- **TransformerConv & GINConv**: Extracts structural features from both polymer and solvent SMILES.
 - **Fully connected layers**: Similar to HybridGNN, combining graph features with descriptors.
 
 Both models use **GNN architectures** optimized for thermal properties and solubility prediction.
